@@ -7,7 +7,7 @@
 	triggers-per-rotation = <8>;
 };
 &def_lshft {
-	triggers-per-rotation = <4>;
+	triggers-per-rotation = <3>;
 };
 
 / {
