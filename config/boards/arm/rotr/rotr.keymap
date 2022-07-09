@@ -16,7 +16,7 @@
 
 		default_layer {
 			//FUNCTION MACROS
-			bindings = <&kp F24 &lt 4 F23 &kp F22>;
+			bindings = <&kp RALT &lt shift PRINTSCREEN &kp PAGE_DOWN>;
 			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
 		};
 		one {
