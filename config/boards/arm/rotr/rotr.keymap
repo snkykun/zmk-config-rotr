@@ -16,7 +16,7 @@
 
 		default_layer {
 			//PREV | PLAY/PAUSE | NEXT
-			bindings = <&F24 &F23 &F22>;
+			bindings = <&F24 &lt 4 F23 &F22>;
 			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
 		};
 		one {
