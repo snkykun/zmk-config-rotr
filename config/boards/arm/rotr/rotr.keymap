@@ -15,7 +15,7 @@
 		compatible = "zmk,keymap";
 
 		default_layer {
-			//PREV | PLAY/PAUSE | NEXT
+			//FUNCTION MACROS
 			bindings = <&kp F24 &lt 4 F23 &kp F22>;
 			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
 		};
@@ -30,8 +30,8 @@
 			sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;
 		};
 		three {
-			//PREV | PLAY/PAUSE | NEXT
-			bindings = <&kp C_MUTE &lt 4 F13 &kp C_PP>;
+			//OSU
+			bindings = <&kp KP_NUMBER_1 &lt 4 KP_NUMBER_2 &kp KP_NUMBER_3>;
 		};
 		shift {
 			//PREV | PLAY/PAUSE | NEXT
